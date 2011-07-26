@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Portefeuil d'actions</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="-1"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css" type="text/css" />
+    <script src="js/application.js"></script>
+    <LINK REL=StyleSheet HREF="css/style.css" TYPE="text/css">
+</head>
+
+<body>
+
+<h1 class="titre"></h1>
+
+<p>
+  Entrez le nom du stock :
+  <input id="nomStock" type="text" name="stock" value="" size="10" />
+  Montant :
+  <input id="montantStock" type="text" name="nbStock" value="" size="10" />
+  <button id="addStock" type="button">Execute</button>
+</p>
+
+<div id="messageError"></div>
+<div id="data">
+<table id="infos">
+    <tr>
+        <td width="500">
+            <table id="stocks" border="1">
+            </table>
+        </td>
+        <td/>
+        <td>
+            <div id="chart">
+                <img src="" >
+            </div>
+        </td>    
+    </tr>
+</table>
+</div>
+</body>
+</html>
